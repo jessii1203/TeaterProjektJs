@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86873529-d75a-4da5-bda9-4c1a721a291b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="86873529-d75a-4da5-bda9-4c1a721a291b" name="Changes" comment="forbundet siderne med hinanden.">
+      <change afterPath="$PROJECT_DIR$/Css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/Customer/FPMovieList(1).html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Customer/FPMovieList(1).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Customer/cardInfo(4).html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Customer/cardInfo(4).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Customer/customerInfo(3).html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Customer/customerInfo(3).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Customer/receipt(5).html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Customer/receipt(5).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Customer/seatSelection(2).html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Customer/seatSelection(2).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Manager/FPShortcut.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Manager/FPShortcut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Manager/checkIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Manager/checkIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Manager/movieList.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Manager/movieList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Manager/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Manager/overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Manager/snackTrack.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Manager/snackTrack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +19,7 @@
       <list>
         <option value="package.json" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,18 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,8 +56,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678959796571</updated>
-      <workItem from="1678959797997" duration="3647000" />
+      <workItem from="1678959797997" duration="3690000" />
+      <workItem from="1679044764768" duration="2422000" />
     </task>
+    <task id="LOCAL-00001" summary="forbundet siderne med hinanden.">
+      <created>1678974725983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678974725983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="forbundet siderne med hinanden." />
+    <option name="LAST_COMMIT_MESSAGE" value="forbundet siderne med hinanden." />
   </component>
 </project>

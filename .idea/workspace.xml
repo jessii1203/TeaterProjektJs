@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86873529-d75a-4da5-bda9-4c1a721a291b" name="Changes" comment="forbundet siderne med hinanden.">
-      <change afterPath="$PROJECT_DIR$/Css/style.css" afterDir="false" />
+    <list default="true" id="86873529-d75a-4da5-bda9-4c1a721a291b" name="Changes" comment="slette bla">
+      <change afterPath="$PROJECT_DIR$/HTML/Customer/js/movie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Customer/FPMovieList(1).html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Customer/FPMovieList(1).html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,7 @@
         <option value="package.json" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,19 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="movie.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="movie.js" working-dir="$PROJECT_DIR$/HTML/Customer/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.movie.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +58,8 @@
       <updated>1678959796571</updated>
       <workItem from="1678959797997" duration="3690000" />
       <workItem from="1679044764768" duration="2422000" />
+      <workItem from="1679060101531" duration="549000" />
+      <workItem from="1679061066704" duration="3918000" />
     </task>
     <task id="LOCAL-00001" summary="forbundet siderne med hinanden.">
       <created>1678974725983</created>
@@ -66,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678974725983</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="slette bla">
+      <created>1679056399035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679056399035</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="forbundet siderne med hinanden." />
-    <option name="LAST_COMMIT_MESSAGE" value="forbundet siderne med hinanden." />
+    <MESSAGE value="slette bla" />
+    <option name="LAST_COMMIT_MESSAGE" value="slette bla" />
   </component>
 </project>

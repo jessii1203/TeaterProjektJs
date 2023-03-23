@@ -1,0 +1,23 @@
+Index: blabla.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <title>$Title$</title>\r\n</head>\r\n<body>\r\n$END$\r\n</body>\r\n</html>
+===================================================================
+diff --git a/blabla.html b/blabla.html
+--- a/blabla.html	
++++ b/blabla.html	
+@@ -1,10 +1,10 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+-  <meta charset="UTF-8">
+-  <title>$Title$</title>
++    <meta charset="UTF-8">
++    <title>Title</title>
+ </head>
+ <body>
+-$END$
++
+ </body>
+ </html>
+\ No newline at end of file

@@ -1,0 +1,137 @@
+Index: HTML/Customer/FPMovieList(1).html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Fin tabel med kommuner</title>\r\n    <link rel=\"stylesheet\" href=\"css/style.css\">\r\n\r\n\r\n</head>\r\n<body>\r\n\r\n<h1>Kommuner i Danmark</h1>\r\n<button id=\"pbFetchKommuner\">Hent kommuner</button>\r\n<select id=\"ddKommuner\"></select>\r\n<button id=\"pbCreateTable\">Byg tabel</button>\r\n<br>\r\n<br>\r\n<div>\r\n    <table class=\"table\" id=\"tblKommune\">\r\n        <tr style=\"color:white; background-color: black\">\r\n            <th>Kode</th>\r\n            <th>Navn</th>\r\n            <th>Region</th>\r\n            <th>Photo Href</th>\r\n            <th>Billede</th>\r\n        </tr>\r\n    </table>\r\n</div>\r\n\r\n<script src=\"js/fetchkommunerlocal.js\"></script>\r\n<script src=\"js/createtable.js\"></script>\r\n\r\n<nav>\r\n<a href=\"seatSelection(2).html\">next</a>\r\n</nav>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HTML/Customer/FPMovieList(1).html b/HTML/Customer/FPMovieList(1).html
+--- a/HTML/Customer/FPMovieList(1).html	(revision 1511b436f084bf2d645d44da5899599d647646eb)
++++ b/HTML/Customer/FPMovieList(1).html	(date 1679057027003)
+@@ -10,9 +10,9 @@
+ <body>
+ 
+ <h1>Kommuner i Danmark</h1>
+-<button id="pbFetchKommuner">Hent kommuner</button>
++<button id="pbFetchKommuner">Hent film</button>
+ <select id="ddKommuner"></select>
+-<button id="pbCreateTable">Byg tabel</button>
++<button id="pbCreateTable">se film tabel</button>
+ <br>
+ <br>
+ <div>
+Index: Css/style.css
+===================================================================
+diff --git a/Css/style.css b/Css/style.css
+deleted file mode 100644
+--- a/Css/style.css	(revision 1511b436f084bf2d645d44da5899599d647646eb)
++++ /dev/null	(revision 1511b436f084bf2d645d44da5899599d647646eb)
+@@ -1,51 +0,0 @@
+-table {
+-    margin-left: auto;
+-    margin-right: auto;
+-    font-size: 20px;
+-    height: 100%;
+-    table-layout: fixed;
+-}
+-
+-td {
+-    border: 1px solid black;
+-    text-align: center;
+-    padding: 1px;
+-}
+-
+-tr:nth-child(even) {
+-    background-color: #00cf45;
+-}
+-
+-h1 {
+-    color: #002480;
+-}
+-
+-.inputfield {
+-    width: 50%;
+-    padding: 12px 20px;
+-    margin: 8px 0;
+-    box-sizing: border-box;
+-    border: 3px solid #555;
+-    border-radius: 4px;
+-}
+-
+-
+-.buttondelete {
+-    border:none;
+-    border-radius:10px;
+-    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+-    color: #fff;
+-    background-color:#0a0a23;
+-}
+-
+-.buttonupdate {
+-    border-radius:10px;
+-    padding:5px;
+-    color: #fff;
+-    background-color: #2121cb;
+-}
+-
+-.xbutton {
+-    position: absolute;
+-    top:50%
+-}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"86873529-d75a-4da5-bda9-4c1a721a291b\" name=\"Changes\" comment=\"forbundet siderne med hinanden.\">\r\n      <change afterPath=\"$PROJECT_DIR$/Css/style.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/HTML/Customer/FPMovieList(1).html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/HTML/Customer/FPMovieList(1).html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"package.json\" />\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2N5hLYiYrwYHo3KTv14Ra6lBN4B\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"list.type.of.created.stylesheet\": \"CSS\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"86873529-d75a-4da5-bda9-4c1a721a291b\" name=\"Changes\" comment=\"\" />\r\n      <created>1678959796571</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1678959796571</updated>\r\n      <workItem from=\"1678959797997\" duration=\"3690000\" />\r\n      <workItem from=\"1679044764768\" duration=\"2422000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"forbundet siderne med hinanden.\">\r\n      <created>1678974725983</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678974725983</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"forbundet siderne med hinanden.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"forbundet siderne med hinanden.\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1511b436f084bf2d645d44da5899599d647646eb)
++++ b/.idea/workspace.xml	(date 1679057027474)
+@@ -4,9 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="86873529-d75a-4da5-bda9-4c1a721a291b" name="Changes" comment="forbundet siderne med hinanden.">
+-      <change afterPath="$PROJECT_DIR$/Css/style.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    <list default="true" id="86873529-d75a-4da5-bda9-4c1a721a291b" name="Changes" comment="Css">
++      <change beforePath="$PROJECT_DIR$/Css/style.css" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/HTML/Customer/FPMovieList(1).html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Customer/FPMovieList(1).html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -57,7 +56,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1678959796571</updated>
+       <workItem from="1678959797997" duration="3690000" />
+-      <workItem from="1679044764768" duration="2422000" />
++      <workItem from="1679044764768" duration="3285000" />
+     </task>
+     <task id="LOCAL-00001" summary="forbundet siderne med hinanden.">
+       <created>1678974725983</created>
+@@ -66,7 +65,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1678974725983</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Css">
++      <created>1679056223753</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1679056223753</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -85,6 +91,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="forbundet siderne med hinanden." />
+-    <option name="LAST_COMMIT_MESSAGE" value="forbundet siderne med hinanden." />
++    <MESSAGE value="Css" />
++    <option name="LAST_COMMIT_MESSAGE" value="Css" />
+   </component>
+ </project>
+\ No newline at end of file

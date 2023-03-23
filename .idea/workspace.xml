@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86873529-d75a-4da5-bda9-4c1a721a291b" name="Changes" comment="Css">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Customer/FPMovieList(1).html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Customer/FPMovieList(1).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Customer/receipt(5).html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Customer/receipt(5).html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679056399035</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Css">
+      <created>1679576063546</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679576063546</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Css">
+      <created>1679576098480</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679576098480</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="forbundet siderne med hinanden." />
     <MESSAGE value="slette bla" />
-    <option name="LAST_COMMIT_MESSAGE" value="slette bla" />
+    <MESSAGE value="Css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Css" />
   </component>
 </project>

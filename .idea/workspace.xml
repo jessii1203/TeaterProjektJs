@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86873529-d75a-4da5-bda9-4c1a721a291b" name="Changes" comment="slette bla">
-      <change afterPath="$PROJECT_DIR$/HTML/Customer/js/movie.js" afterDir="false" />
+    <list default="true" id="86873529-d75a-4da5-bda9-4c1a721a291b" name="Changes" comment="Css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Customer/FPMovieList(1).html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Customer/FPMovieList(1).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Customer/receipt(5).html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Customer/receipt(5).html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,9 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="movie.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="movie.js" working-dir="$PROJECT_DIR$/HTML/Customer/js">
       <method v="2" />
